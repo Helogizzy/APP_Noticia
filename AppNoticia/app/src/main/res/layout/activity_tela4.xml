@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".tela4">
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="32dp"
+        android:onClick="telaanterior"
+        android:text="@string/anterior"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="UsingOnClickInXml" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="@string/vacinas"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="0dp"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/covid"
+        android:contentDescription="@string/todo" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="86dp"
+        android:text="@string/coronavac_a_vacina_do_butantan_utiliza_a_tecnologia_de_v_rus_inativado_morto_uma_t_cnica_consolidada_h_anos_e_amplamente_estudada_ao_ser_injetado_no_organismo_esse_v_rus_n_o_capaz_de_causar_doen_a_mas_induz_uma_resposta_imunol_gica_astrazeneca_foi_desenvolvida_pela_farmac_utica_astrazeneca_em_parceria_com_a_universidade_de_oxford_a_tecnologia_empregada_o_uso_do_chamado_vetor_viral_o_adenov_rus_que_infecta_chimpanz_s_manipulado_geneticamente_para_que_seja_inserido_o_gene_da_prote_na_spike_prote_na_s_do_sars_cov_2_pfizer_o_imunizante_da_farmac_utica_pfizer_em_parceria_com_o_laborat_rio_biontech_se_baseia_na_tecnologia_de_rna_mensageiro_ou_mrna_o_rna_mensageiro_sint_tico_d_as_instru_es_ao_organismo_para_a_produ_o_de_prote_nas_encontradas_na_superf_cie_do_novo_coronav_rus_que_estimulam_a_resposta_do_sistema_imune_janssen_do_grupo_johnson_johnson_a_vacina_do_laborat_rio_janssen_aplicada_em_apenas_uma_dose_assim_como_o_imunizante_da_astrazeneca_tamb_m_se_utiliza_da_tecnologia_de_vetor_viral_baseado_em_um_tipo_espec_fico_de_adenov_rus_que_foi_geneticamente_modificado_para_n_o_se_replicar_em_humanos"
+        app:layout_constraintBottom_toTopOf="@+id/button7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10" />
+</androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
