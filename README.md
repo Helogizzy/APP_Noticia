@@ -1,7 +1,7 @@
-# APP do Notícia
+# APP de Notícia
 
 
-### App que mostra uma determinada notícia. Apresenta botões de próimo e anterior<br>
+### App que mostra uma determinada notícia. Apresenta botões de próximo e anterior<br>
 
 <br>**Versão:**<br>
  - Android<br>
